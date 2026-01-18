@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crossy Road</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <canvas id="game-canvas"></canvas>
+    <div id="player-info">
+      <div id="score"></div>
+    </div>
+    <div id="result-container">
+      <div id="result">
+        <h1>Game Over!</h1>
+        <p>Your score: <span id="final-score"></span></p>
+        <button id="restart-button">Restart Game</button>
+      </div>
+    </div>
+    <div id="game-controls">
+      <div>
+        <button id="up"><img src="./public/chevron-up.svg" alt="chevron-up"></button>
+        <button id="down"><img src="./public/chevron-down.svg" alt="chevron-down"></button>
+        <button id="left"><img src="./public/chevron-left.svg" alt="chevron-left"></button>
+        <button id="right"><img src="./public/chevron-right.svg" alt="chevron-right"></button>
+     </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
